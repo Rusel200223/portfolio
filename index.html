@@ -1,0 +1,121 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="sections slide-left-in">
+        <h2 class ="homeh2" >Home</h2>
+        <div class="home_container">
+            <div class="imghome">
+                <img src="c:\Users\rusel nino madanguit\Downloads\pp2x2.jpg" alt="Profile Picture">
+            </div>
+
+            <div class="data">
+                <h2 >HI! I'AM RUSEL NIÑO T. MADANGUIT</h2>
+                <p class="space">BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY  </p>
+                <p class="space">BOHOL ISLAND STATE UNIVERSITY BALILIHAN CAMPUS</p>
+                <p class="space">"Everyday life is akin to programming, I believe. When you have a passion for
+                    something, you can infuse it with beauty."</p>
+            </div>
+
+        </div>
+    </section>
+   
+    <section id="about" class="sections slide-right-in">
+        <div class="about-me-container">
+            <div class="about-me-panel">
+               
+                <div class="about-me-image">
+                    <img src="c:\Users\rusel nino madanguit\Downloads\ruselbike.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-me-content">
+                    <h2>About Me</h2>
+                    <p class="fsize">Welcome to my world! I'm Rusel Niño T. Madanguit a passionate and creative individual with a keen interest in web
+                        development and design. I love to transform ideas into reality through coding and enjoy
+                        exploring new technologies. When I'm not coding, you can find me exploring the outdoors like biking or doing an enduro race with friends I am someone who thrives on the synergy of physical and digital pursuits, weaving a tapestry of experiences that shape my identity. Whether I'm on the race track, immersed in a virtual world, or coding and editing in the digital domain, each facet of my life contributes to the vibrant mosaic of who I am.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section slide-left-in">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <div class="picpo">
+                    <h3>Project 1</h3>
+                    <p class="cts">CINEMA TICKETING SYSTEM</p>
+                </div>
+                <img src="c:\Users\rusel nino madanguit\OneDrive\Pictures\Screenshots\Screenshot (286).png"
+                    alt="Project 1 Image">
+            </div>
+            <div class="project">
+                <div class="picpo">
+                    <h3>Project 2</h3>
+                    <p class="cts">STUDENT DATA MANAGER</p>
+                </div>
+                <img src="c:\Users\rusel nino madanguit\OneDrive\Pictures\Screenshots\Screenshot (289).png"
+                    alt="Project 2 Image">
+            </div>
+            <div class="project">
+                <div class="picpo">
+                    <h3>Project 3</h3>
+                    <p class="cts">LOG IN SYSTEM USING SQL LITE DATABASE</p>
+                </div>
+                <img src="c:\Users\rusel nino madanguit\OneDrive\Pictures\Screenshots\Screenshot (292).png"
+                    alt="Project 3 Image">
+            </div>
+            <div class="project">
+                <div class="picpo">
+                    <h3>Project 4</h3>
+                    <p class="cts">BUILDING MY DREAM HOUSE USING SKETCH UP</p>
+                </div>
+                <img src="c:\Users\rusel nino madanguit\OneDrive\Documents\PROJECT.jpg"
+                    alt="Project 3 Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section slide-right-in">
+        <h2>Contact</h2>
+        <p>Feel free to contact me through the form below:</p>
+        <form id="contact-form" onsubmit="validateForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p class="footercolor">&copy; 2023 My Portfolio. All rights reserved🎄🎅❄️.</p>
+    </footer>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
